@@ -1,0 +1,191 @@
+/*
+Version: 1.0.0
+Author: Jean-Nicolas Boulay Desjardins
+Author URI: http://jean-nicolas.name/
+*/
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset, figure {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+/* set img max-width */
+.post img {
+	width: auto\9; /* ie8 */
+	max-width: 100%;
+	height: auto;
+}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+body {
+	font: .75em/150% "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color: #333;
+	color: #ccc;
+	color: rgba(0,0,0,.6);
+}
+a:link {
+	color: #CCCCCC;
+}
+a:visited {
+	color: #CCCCCC;
+}
+a:hover {
+	color: #F0F0F0;
+}
+.style1 {color: #999999}
+.style3 {font-size: medium; font-style: italic; color: #999999;}
+.style4 {
+	font-size: small;
+	color: #FFFFFF;
+}
+.style5 {
+	font-size: large;
+	color: #938270;
+}
+.style7 {
+	font-size: 12pt;
+	font-style: italic;
+	color: #ccc;
+}
+.style9 {font-size: 10pt}
+.style13 {font-size: 18pt;
+	color: #CCCCCC;
+}
+.style10 {color: #999999; font-size: medium;}
+.style12 {font-size: large; color: #938270; font-style: italic; }
+h1 {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+#page-header {
+	display: block;
+	position: absolute;
+	vertical-align: middle;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 120px;
+}
+#page-header h1 {
+	vertical-align: middle;
+}
+#page-header h1 img{
+	vertical-align: middle;
+}
+nav {
+	display: block;
+	vertical-align: middle;
+	font-size: 150%;
+	margin-top: 40px;
+	margin-left: 400px;
+}
+nav ul {
+	display: inline;
+	list-style: none;
+	vertical-align: middle;
+	margin:0;
+	padding:0;
+}
+nav li {
+	display: inline;
+	vertical-align: middle;
+	margin: 5px;
+	padding:0;
+}
+nav a {
+	text-decoration: none;
+	vertical-align: middle;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+#social-first {
+	margin-left: 40px;
+	vertical-align: middle;
+}
+#social-first img {
+	vertical-align: middle;
+}
+#page {
+	display: block;
+	margin: 40px;
+	position: absolute;
+	float: right;
+	width: 800px;
+	left: 50%;
+	margin-left: -400px;
+}
+#page header {
+	margin-bottom: 50px;
+	clear: both;
+	text-align: center;
+}
+#page-footer {
+	display: block;
+	position: fixed;
+	bottom: 5px;
+	color: #ccc;
+}
+.gallery ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery li {
+	display: inline;
+	list-style: none;
+	width: 200px;
+	min-height: 175px;
+	float: left;
+	margin: 0 10px 10px 0;
+	text-align: center;
+}
+
+.gallery img {
+	border: 1px solid #fff;
+}
+.behind {
+	display: none;
+}
+.photo_front {
+	display: none;
+}
+.photo_back {
+	display: none;
+}
+#box-wrapper {
+	position: absolute;
+	background-image: url(/assets/img/bg-trans-black.png);
+	width: 100%;
+	margin: 0px;
+	z-index: 999;
+}
+#box-image-wrapper {
+	position: absolute;
+	float: right;
+	width: 600px;
+	background-color: #000;
+	left: 50%;
+	margin-left: -300px;
+	z-index: 9999;
+}
+#box-image-rightbar {
+	width: 300px;
+}
